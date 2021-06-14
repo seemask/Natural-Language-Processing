@@ -1,0 +1,794 @@
+Student:  Hey! I'm trying to figure out what classes to take next semester. 
+Predicted:pull-fill Actual:pull-fill
+Student:  Well, I'm just coming out of EECS 281 so I'm trying to figure out what upper level CS courses I should take mainly. 
+Predicted:social Actual:pull-select
+Student:  I really liked 370 actually, so I'm thinking something lower level would be more my speed. 
+Predicted:social Actual:push-general-info
+Student:  Oh! That actually sounds like a good idea. When you say difficult, are you talking in terms of workload? I want to still take some humanites next semester as well. 
+Predicted:social Actual:push-conditional
+Student:  That sounds like a plan then! I think that's most of what I was worried about. Thanks for your help! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hello, I was wondering if I could take any classes outside of EECS next semester? I want to see what other classes are like. 
+Predicted:push-general-info Actual:push-general-info
+Student:  Okay, do you think I will still be able to fulfill my requirements even if I take a class outside my major? 
+Predicted:social Actual:pull-other
+Student:  Great, it's good to know that I'm on track for graduating on time. Thanks a lot! 
+Predicted:social Actual:social-open-close
+Student:  Hello  I was wondering if you needed to take EECS 203 before taking EECS 281 
+Predicted:social Actual:push-general-info
+Student:  I am thinking of taking EECS 203, MATH 216, and Physics 140  Maybe a psych class but I'm not sure yet  I want to get a dope internship and I feel like all those classes are important 
+Predicted:social Actual:pull-bool
+Student:  I am thinking of double majoring psych and cs 
+Predicted:social Actual:pull-other
+Student:  I want to take 16 credits 
+Predicted:push-general-info Actual:pull-bool
+Student:  nope  But I took 15 one semester so it can't be that different 
+Predicted:social Actual:push-tailored-info
+Student:  You are the best advisor I have ever had! 
+Predicted:social Actual:social-open-close
+Student:  Hi! 
+Predicted:social-open-close Actual:pull-other
+Student:  I am interested in UI and would like to take EECS 493 next semester.  Are there any pre-requisites for the class? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  Great!  I am interested in Web in general. Is there any class you would recommend taking with 493? 
+Predicted:social Actual:push-tailored-info
+Student:  How heavy is the workload for these two classes? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Do you think it is okay to take a third EECS class with these two? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  I'll look into that. Thank you so much! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hi! I am trying to plan my schedule next semester and I need help selecting courses to take 
+Predicted:social Actual:pull-select
+Student:  I am an Electrical Engineering Major 
+Predicted:social Actual:pull-fill
+Student:  I'd like the easiest semester possible, not too many crazy all nighters! 
+Predicted:social Actual:push-conditional
+Student:  ok, that sounds interesting, any other class that would work alongside that? 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  OK, thank you. 
+Predicted:social-open-close Actual:push-conditional
+Student:  ok awesome thanks for all your help!  bye! 
+Predicted:social-open-close Actual:social-open-close
+Student:  hello  Hi I was debating when I should take EECS 281 
+Predicted:social Actual:push-general-info
+Student:  Alright, is it typically a high work load course?  hello 
+Predicted:social Actual:social-open-close
+Student:  hi. how difficult is eecs407? 
+Predicted:push-general-info Actual:push-general-info
+Student:  what do you suggest that i take next semester? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  no 
+Predicted:social-open-close Actual:pull-bool
+Student:  yes i am  what is a good flex tech credit 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  great thank you  good bye 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hi,  How was your weekend? 
+Predicted:social-open-close Actual:social-open-close
+Student:  I was wondering what course I can take next term? 
+Predicted:push-general-info Actual:social
+Student:  No, I found the math is a little bit hard for me.  And it always took me so much time to figure out the homework.... 
+Predicted:social Actual:pull-bool
+Student:  Sort of  And I also took Physics,  the teacher was really good. Most interesting course so far 
+Predicted:social Actual:pull-select
+Student:  Oh I might want to take computer science as a minor.  What do you think? 
+Predicted:push-tailored-info Actual:social-open-close
+Student:  So, about next term what couse do you think I should take. I meant, based on my course history?  Or can I choose the course in other department? 
+Predicted:social Actual:push-tailored-info
+Student:  ok thank you! I might take EECS281. Project sounds good.  Hi 
+Predicted:social-open-close Actual:social-open-close
+Student:  I'm trying to decide what classes to take next semester. It will be my last semester so I want an easier schedule.  What EECS classes could I take? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  I haven't heard of this course, can you tell me more about it?  I also want to take more than one EECS course next semester. 
+Predicted:social Actual:push-general-info
+Student:  What are the class numbers for these? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Okay. Do you know anything about the professors that teach these courses? I don't want to take anything with a really boring professor. 
+Predicted:social Actual:push-general-info
+Student:  Okay cool. Thanks for your help! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hi! I am looking to minor in EECS, and I want to take another elective. 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  Cool, is it offered in the morning? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  What is the workload of EECS 281? I will be taking other museum studies courses and want a small workload next semester. 
+Predicted:social Actual:push-general-info
+Student:  That is great. Thank you so much for all of your help!  I will definitely take EECS 281 next semester 
+Predicted:social-open-close Actual:push-tailored-info
+Student:  hello! I need help and NOW 
+Predicted:social-open-close Actual:pull-fill
+Student:  actually, it is pronounced d-a-n-i  I think im failing eecs can you check for me? 
+Predicted:social Actual:push-tailored-info
+Student:  I suppose so  like..do i drop off  out 
+Predicted:social Actual:push-conditional
+Student:  okay  i hear you  how about physics? 
+Predicted:push-general-info Actual:push-general-info
+Student:  okay  im feeling  sad and lost  what do you suggest i switch to? 
+Predicted:social Actual:push-general-info
+Student:  so it sounds like i should either drop out or just do communications  i think i get it  thats all!  bye joanne! 
+Predicted:social Actual:social-open-close
+Student:  Howdy! 
+Predicted:social-open-close Actual:pull-fill
+Student:  I am looking for advice on which classes to take next semester 
+Predicted:push-tailored-info Actual:pull-fill
+Student:  I am equally interested in Software Dev, Theory of Computation, Computing Infrastructure, and Web Dev 
+Predicted:social Actual:push-tailored-info
+Student:  How hard is EECS 281? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Do you know what time of day that is offered?  Also, I haven't taken EECS 203. Is that still a pre-req? 
+Predicted:push-general-info Actual:push-conditional
+Student:  Alrighty. Thank you!  Have a good day! 
+Predicted:social-open-close Actual:social-other
+Student:  Yes 
+Predicted:push-tailored-info Actual:pull-select
+Student:  Well... I don't think that would be very likely. I do believe I would have contributed to the well being of my fellow soldiers, however. 
+Predicted:social Actual:push-general-info
+Student:  They instilled with me a great sense of leadership, which are skills that can be used to help binary numbers resolve their differences and see the middle ground. 
+Predicted:social Actual:push-general-info
+Student:  Well it's not his country of birth, but I'd say his drive to achieve the most powerful office in the country is in line with the nature of the American Spirit. 
+Predicted:social Actual:pull-bool
+Student:  Last semester it was great! Now I'm in EECS 281 and I'm starting to rethink my life on a very fundamental level. 
+Predicted:social Actual:push-tailored-info
+Student:  That's a good idea actually, the foundations must be really easy! 
+Predicted:social Actual:pull-select
+Student:  I'd say AI or maybe Game Development. Could I design AI's in games as a compromise? 
+Predicted:social Actual:push-general-info
+Student:  Well since that foundations class won't be so hard then I think I could handle it. Unless the scale is out of 2... 
+Predicted:social Actual:push-general-info
+Student:  Ok thank you very much for giving me the tools to succeed! 
+Predicted:social Actual:social-open-close
+Student:  Hello! 
+Predicted:social-open-close Actual:pull-fill
+Student:  I'm looking for a class to fill my schedule up for next semester.  I want a class that doesn't meet on Fridays, do you have any suggestions? 
+Predicted:social Actual:pull-bool
+Student:  EECS485 and SPANISH987  Ideally I'd like 2 more computer science courses with that 
+Predicted:social Actual:pull-bool
+Student:  Yes! 
+Predicted:social-open-close Actual:push-tailored-info
+Student:  That sounds good. I'll backpack that class for this semester. 
+Predicted:social-open-close Actual:push-general-info
+Student:  Oh, those sound like skills I'd like to learn 
+Predicted:push Actual:push-conditional
+Student:  Okay, I think I will just stick to these three classes for now  Thank you! 
+Predicted:social Actual:social-open-close
+Student:  You too  Hi 
+Predicted:social-open-close Actual:pull-other
+Student:  Is calculus 2 harder than physics 240? 
+Predicted:social Actual:push-conditional
+Student:  thanks!  Hello! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hi, I am currently interested in computer science as a major, and I was wondering if you could suggest me what classes I should take next 
+Predicted:social Actual:pull-select
+Student:  No 
+Predicted:social-open-close Actual:push-tailored-info
+Student:  Will I still be on track to graduate? I know a lot of my friends took both 203 and 280 together and are taking 281 next semester, however I know that I can not since I have not taken 203 quite yet. 
+Predicted:social Actual:push-conditional
+Student:  Screen Arts  Actually. CSE. But I'm considering switching. What do you think? 
+Predicted:social Actual:push-tailored-info
+Student:  But isn't Elementary Programming Concepts a pre-req for the others?  Also, I don't like programming. Can't I drop the major? 
+Predicted:social Actual:push-tailored-info
+Student:  What would you recommend?  Or maybe I should be a psych major? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Ok, that sounds good thanks 
+Predicted:social-open-close Actual:push-general-info
+Student:  Thank you. I appreciate that 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hello! I'm about to register for classes, but I'm not sure which classes I should take next semester. Can you help me? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Great! What should I take? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Yes, that was very helpful!  I will do that.  Thanks!  Bye!  How are you today 
+Predicted:social-open-close Actual:social-open-close
+Student:  Can you give some advice to select courses next semester? 
+Predicted:social Actual:push-tailored-info
+Student:  What's the class size of this course? 
+Predicted:push-general-info Actual:push-general-info
+Student:  That's great 
+Predicted:social-open-close Actual:push-tailored-info
+Student:  Does this course have much workload? 
+Predicted:push-general-info Actual:push-general-info
+Student:  OK, thank you for your suggestion 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hello ther 
+Predicted:social-open-close Actual:pull-select
+Student:  I want to take a class in the morning 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  What eecs classes have the lowest load? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  I would like an easier class  What do you suggest? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  Okay I will take that. 
+Predicted:social-open-close Actual:pull-fill
+Student:  What science classes do you recommend? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  Okay, thanks for the help! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hello 
+Predicted:social-open-close Actual:social-open-close
+Student:  What should I take next semester? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Why do you suggest EECS 381? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Okay. What other classes should I take with it? 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  Is that all I need to graduate? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  What other classes do you recommend I take with those two? 
+Predicted:push-tailored-info Actual:push-conditional
+Student:  Are you sure math 404 is an easy class? 
+Predicted:push-general-info Actual:push-general-info
+Student:  What is Math 404 about? 
+Predicted:push-general-info Actual:push-general-info
+Student:  What if I struggle with differential equations? 
+Predicted:social Actual:push-conditional
+Student:  What should I take instead? 
+Predicted:push-general-info Actual:pull-bool
+Student:  Not really. 
+Predicted:push-tailored-info Actual:pull-select
+Student:  I prefer Software Development 
+Predicted:push-tailored-info Actual:push-conditional
+Student:  What time is that class? I prefer afternoon classes. 
+Predicted:push-general-info Actual:push-general-info
+Student:  Do you have any afternoon classes I could take 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  Okay thank you. I'll take EECS 441, 381, and 376 
+Predicted:social Actual:social-open-close
+Student:  Goodbye 
+Predicted:social-open-close Actual:social-open-close
+Student:  Nice to meet you Garrett! 
+Predicted:social-open-close Actual:social-open-close
+Student:  I agree  I need some help deciding what classes to take next semester. Did I come to the right place? 
+Predicted:social Actual:push-general-info
+Student:  Hurray! 
+Predicted:social-open-close Actual:pull-select
+Student:  I like history more but I want to make a lot of money. What should I do?! 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  That's the dream! Based on the classes that I've taken so far what are the next courses I should take to work towards a Computer Science degree? 
+Predicted:social Actual:push-tailored-info
+Student:  I've already taken ENGR 101 so I would I still be able to take EECS 183 for credit? 
+Predicted:social Actual:push-tailored-info
+Student:  Dope! 
+Predicted:social-open-close Actual:social-open-close
+Student:  I am interested in the computer science major. 
+Predicted:push-tailored-info Actual:pull-bool
+Student:  Yes, I have taken ENGR 101, EECS 280, and EECS 203. 
+Predicted:push-general-info Actual:social-continue
+Student:  Yes, I have also finished my math requirements. 
+Predicted:social Actual:push-general-info
+Student:  Which ones? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Is that all I need to do to complete the major? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Oh. 
+Predicted:social-open-close Actual:push-tailored-info
+Student:  Yea, I don't know what to do now. 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  No! What are the requirements for that? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Oh okay. I will do that then. Can I take those three classes next semester? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Okay, thank you!  Hi 
+Predicted:social-open-close Actual:social-open-close
+Student:  I'd like an easy schedule next semester. What courses should I take? 
+Predicted:push-tailored-info Actual:pull-bool
+Student:  No, I'm majoring in Chemistry, but I want a Computer Science minor 
+Predicted:social Actual:push-tailored-info
+Student:  What about after EECS 281? 
+Predicted:push-general-info Actual:pull-fill
+Student:  I'm interested in cybersecurity 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Okay, thank you! 
+Predicted:social-open-close Actual:pull-bool
+Student:  Not at this time, thanks for askin 
+Predicted:social Actual:social-open-close
+Student:  Hello Professor Lefevre!  I am trying to figure out what classes I should take next semester 
+Predicted:pull-fill Actual:push-general-info
+Student:  Ok! I am looking for a schedule with relatively easy classes  What is the difficulty of EECS 370? 
+Predicted:social Actual:push-general-info
+Student:  Ok. Are there any other classes that I can take in conjunction with EECS 370? 
+Predicted:push-tailored-info Actual:push-conditional
+Student:  Great, I will take both those classes you suggested!  Thank you so much for all of your help.  hi 
+Predicted:social-open-close Actual:push
+Student:  alright advise me  Hello Mr. Shan, I was wondering which upper level CS classes I should take next semester? 
+Predicted:social Actual:pull-select
+Student:  Web Dev  and also DBMS 
+Predicted:social Actual:pull-bool
+Student:  NO 
+Predicted:social-open-close Actual:push-tailored-info
+Student:  Thanks for your help. Bye! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hi, I'm looking for information about what options I have for my MDE 
+Predicted:social Actual:push-conditional
+Student:  Okay, what would be 2 good EECS classes for next semester? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Do they pair well together? 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  Do I still need to take any Math courses? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Do you have any recommendations for an ULCS to take the following semester? 
+Predicted:social Actual:push-tailored-info
+Student:  Okay thanks for the help! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hello Zach, I'm here to get class scheduling advice! 
+Predicted:social Actual:pull-fill
+Student:  Are there any EECS upper level classes you would recommend? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Oh thats great 
+Predicted:social-open-close Actual:pull-bool
+Student:  I don't know how to make a mobile app. Is EECS 441 for me? 
+Predicted:social Actual:push-tailored-info
+Student:  Thats Great Zach. I think i'm all set then. 
+Predicted:social Actual:social-open-close
+Student:  See you later Zach! 
+Predicted:social-open-close Actual:pull-other
+Student:  Hello  I need help picking my last class to take next semester 
+Predicted:social Actual:pull-other
+Student:  I am debating on taking EECS 445 or not  I have heard it is a bit difficult  I'm not sure if it is worth taking my last semester 
+Predicted:social Actual:push-general-info
+Student:  I think I'll take 214 instead  I have plenty of semesters to decide  Does EECS 445 count for the Data Science major? 
+Predicted:social Actual:push-general-info
+Student:  AWESOME!  I think I'll def take 214 so that I can take 445 before I graduate 
+Predicted:social Actual:push-general-info
+Student:  Thanks so much 
+Predicted:social-open-close Actual:pull-fill
+Student:  No and no you are awesome!  Bye! 
+Predicted:social-open-close Actual:push-general-info
+Student:  EECS 183 
+Predicted:push-tailored-info Actual:pull-fill
+Student:  My TA is mean 
+Predicted:social Actual:push-general-info
+Student:  My professor is mean too.  She can be very angry sometimes. 
+Predicted:social Actual:push-general-info
+Student:  Thank you. You are so helpful, in my humble opinion. 
+Predicted:social-open-close Actual:pull-bool
+Student:  Nope, that's all. 
+Predicted:social-open-close Actual:social-open-close
+Student:  I'm fine, thanks. I wanted to talk about my classes for next year. 
+Predicted:social Actual:pull-select
+Student:  I was hoping to have a relaxed semester, so I'm hoping for somewhere around 12 credits. 
+Predicted:social Actual:pull-bool
+Student:  Yeah, I took engineering 101 and liked it, so I'm hoping to learn more about it. 
+Predicted:social Actual:push-tailored-info
+Student:  Hi professor qijun, i have some questions for next semester's class 
+Predicted:social Actual:pull-other
+Student:  I'm at senior year, and i want to fulfill my graduation requirement 
+Predicted:social Actual:push-general-info
+Student:  i think i'm 4 credits away 
+Predicted:social Actual:push-general-info
+Student:  That sounds interesting. how's the workload of eecs482 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  Also, I'm only free on Tuesday and Thursday. So does 482 fit? 
+Predicted:social Actual:push-conditional
+Student:  Great, thank you! 
+Predicted:social-open-close Actual:social
+Student:  I was wondering what courses I should take for next semester. 
+Predicted:push-tailored-info Actual:pull-fill
+Student:  I'm very interested in the field of software development  also web development and computing infrastructure 
+Predicted:social Actual:push-tailored-info
+Student:  What would you say the workload is like for that class? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Is it generally considered an easy course? 
+Predicted:social Actual:push-general-info
+Student:  Ok, that sounds good. Do you have any suggestions for other courses? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  That sounds like a good choice, is the staff generally helpful for that class? 
+Predicted:social Actual:push-general-info
+Student:  Awesome, I think that's all I needed. Thanks for the advice! 
+Predicted:social-open-close Actual:social-open-close
+Student:  I'm not sure if I should minor is business 
+Predicted:push-general-info Actual:social-open-close
+Student:  I am fine, and you? 
+Predicted:push-tailored-info Actual:social-open-close
+Student:  I'm trying to figure out required courses to take to become a cs major. 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Should I take those two courses together? 
+Predicted:push-tailored-info Actual:push-conditional
+Student:  Oh, ok.  How difficult are those two courses together? 
+Predicted:social Actual:push-tailored-info
+Student:  Are those two the only ones I can take towards my major this semester? 
+Predicted:social Actual:push-tailored-info
+Student:  Ok, thank you very much.  I will take those. 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hello  I am trying to plan my senior year semester. I am a Junior and for the Fall of 2007 I would like to start taking upper level technical electives, as well as other major requirements.  I am interested in Robotics, what courses should I take? 
+Predicted:social Actual:push-tailored-info
+Student:  Okay thank you.  Would you recommend that I take both of those in the same semester or is that too much work? 
+Predicted:social Actual:push-general-info
+Student:  Okay, can I take either one of them with 478 or must I wait until I have taken both? 
+Predicted:social Actual:push-general-info
+Student:  Thank you that was all very helpful.  No, you have answered all of my questions. Thanks again. Bye 
+Predicted:social Actual:push-general-info
+Student:  Hi Kevin! 
+Predicted:social-open-close Actual:push-tailored-info
+Student:  Im deciding between taking 370 and 376 next semester?  do you have any suggestions? 
+Predicted:social Actual:pull-fill
+Student:  i didnt do so well, but I passed the course with a C 
+Predicted:social Actual:push-conditional
+Student:  okay i Will do so.  is 370 and 376 a much more lighter course load then? 
+Predicted:social Actual:push-general-info
+Student:  so like, half the work of 280?  or about the same  ?? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  im not that into those topics 
+Predicted:push Actual:push-general-info
+Student:  ok  but i need to take those two courses to get my CSE degree right? 
+Predicted:social Actual:push-general-info
+Student:  thank you, I will register for those two classes now  have a good day 
+Predicted:social Actual:push-general-info
+Student:  thanks~  Hello, I have some questions 
+Predicted:push Actual:social-continue
+Student:  What classes should I take next semester? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  I'm interested in Software Development. Is there a good upper-level cs course related to software development?  Hello? 
+Predicted:push Actual:social-other
+Student:  So any suggestions regarding software development classes? 
+Predicted:social Actual:push-conditional
+Student:  All my friends said that EECS 381 was their least favorite class. Why did they hate it so much? 
+Predicted:social Actual:push-general-info
+Student:  What classes other that EECS 381 are good for software dev? 
+Predicted:social Actual:push-tailored-info
+Student:  Okay cool! I'll look into those for sure. Thank you so much! 
+Predicted:social-open-close Actual:social-other
+Student:  Hey I heard could some cool advising done here? 
+Predicted:social Actual:push-general-info
+Student:  I'm trying to decide what I should major in, I'm an engineering student 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  I was in the microprocessors section with Prof. Chen 
+Predicted:social Actual:push-conditional
+Student:  I really enjoyed the logic circuit and processor aspect of the class 
+Predicted:social Actual:push-tailored-info
+Student:  Okay! I'm planning to take Physics 240 and a math class next semester, so I'm looking to add another class, what would you suggest then? 
+Predicted:social Actual:push-tailored-info
+Student:  Huh, okay  I think I'll take it then  Thanks! 
+Predicted:social-open-close Actual:social-other
+Student:  Nope 
+Predicted:social-open-close Actual:social-open-close
+Student:  I would like a morning class.  Do you have any suggestions? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  I'm interested in software development and computer hardware. 
+Predicted:push-tailored-info Actual:push-conditional
+Student:  I've read that EECS 470 is a very time-consuming and difficult class. Is that true? 
+Predicted:social Actual:social-other
+Student:  Okay, I'll take a look at that!  Do you know who's teaching EECS 481 next semester? 
+Predicted:social Actual:push-general-info
+Student:  Are there any prerequisites to it besides EECS 281 and EECS 370? 
+Predicted:social Actual:push-general-info
+Student:  Okay thank you!  I'm thinking of taking EECS 481 next semester! 
+Predicted:social Actual:social-other
+Student:  No, but thank you so much! 
+Predicted:social-open-close Actual:social-open-close
+Student:  HI 
+Predicted:social-open-close Actual:pull-other
+Student:  Im fine, what classes should I take next semester? 
+Predicted:push-tailored-info Actual:pull-bool
+Student:  I am interested in artificial intelligence 
+Predicted:push-tailored-info Actual:push-conditional
+Student:  Ok, can you tell me how hard that class is? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  I like medium-sized courses, which class would you recommend, Software Engineering or Web Databases? 
+Predicted:social Actual:push-conditional
+Student:  Ok, thank you for your advice. 
+Predicted:social-open-close Actual:social-open-close
+Student:  I was wondering if EECS 381 would be a good course to take along with EECS 482?  I have heard that is doable 
+Predicted:social Actual:push-general-info
+Student:  Would that delay my graduation?  I would like to graduate in 3 years  Should I instead drop my EE major?  I can just major in CS instead of double majoring 
+Predicted:social Actual:pull-select
+Student:  So instead of EECS 482 is there a class I can take? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Thanks! 
+Predicted:social-open-close Actual:push-general-info
+Student:  Oh I was not aware of that!  Thank you for your time 
+Predicted:social-open-close Actual:pull-other
+Student:  Hey, I wanted to ask some questions about my class schedule for the next semester. 
+Predicted:social Actual:pull-other
+Student:  What can you suggest me after taking EECS270 or EECS370? My preferences are a small class size and group project. 
+Predicted:social Actual:pull-bool
+Student:  No. 
+Predicted:social-open-close Actual:push-tailored-info
+Student:  Okay, awesome. I heard from my friends that the workload for this class is really heavy. What do you think? 
+Predicted:social Actual:push-tailored-info
+Student:  Alright, I need to think about this a little bit more. If I have any other questions, I'll stop by again. Thank you very much! 
+Predicted:social Actual:social-open-close
+Student:  My name is Patrick. 
+Predicted:social Actual:pull-fill
+Student:  I think I am done with all the pre-requisites for Computer Science.  I would like to take electives. 
+Predicted:social Actual:pull-fill
+Student:  I am interested in computer security and machine learning. 
+Predicted:social Actual:push-general-info
+Student:  Okay, cool. I would like to take EECS 388 and EECS 545 next semester. 
+Predicted:social Actual:pull-bool
+Student:  Okay awesome. I will take that after. 
+Predicted:social-open-close Actual:push-general-info
+Student:  Why should I take EECS 482? 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  Oh okay. Is it hard? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  Okay great. Thank you! 
+Predicted:social-open-close Actual:social-open-close
+Student:  I need help deciding what classes to take next semester  I am currently a junior in computer science 
+Predicted:social Actual:pull-fill
+Student:  So far, 281 has been my favorite!  along with EECS376 
+Predicted:social Actual:push-tailored-info
+Student:  What is the workload like for EECS445? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  I have never done web development but I am eager to learn 
+Predicted:social Actual:pull-fill
+Student:  I haven't really been very interested in hardware  Since that is a requirement maybe I will take EECS370 with either EECS445 or EECS485 
+Predicted:social Actual:push-general-info
+Student:  Will definitely be taking EECS370 next semester  thanks for your help 
+Predicted:social Actual:social-open-close
+Student:  I like Japanese & computers ... 
+Predicted:social Actual:pull-select
+Student:  I have taken both, aced em 
+Predicted:social Actual:pull-fill
+Student:  What's the difference? 
+Predicted:push-general-info Actual:push-general-info
+Student:  I use vim because I don't know how to use emacs 
+Predicted:social Actual:push-conditional
+Student:  Ok cool I'll do both 
+Predicted:social-open-close Actual:push-general-info
+Student:  I'll hold off on those ones 
+Predicted:social Actual:social-open-close
+Student:  Thank you for yr help 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hi professor qijun 
+Predicted:social-open-close Actual:push-general-info
+Student:  yes 
+Predicted:push-tailored-info Actual:pull-select
+Student:  I prefer CS 
+Predicted:push-tailored-info Actual:pull-bool
+Student:  Yes, I'm interested in database. How's the workload for EECS 484? Since I will need more time to find a job, I might not choose taking multiple courses with heavy workloads 
+Predicted:social Actual:push-tailored-info
+Student:  That sounds great. What's the class time? 
+Predicted:push-general-info Actual:push-general-info
+Student:  I can work with that. Thank you professor! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hello! Could you suggest any classes that I might want to take? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Oh yeah that sounds very interesting! What is the course load for EECS 484? 
+Predicted:social Actual:push-general-info
+Student:  Okay that sounds perfect! Uhm I am the most interested in software. Are there any other courses you could suggest? 
+Predicted:social Actual:push-conditional
+Student:  Oh wow that sounds very interesting! Do you think taking EECS 481 and EECS 484 together would be manageable? 
+Predicted:social Actual:push-general-info
+Student:  Oh okay yeah I would want to take another class, are there any other EECS courses that have a lighter load? 
+Predicted:social Actual:push-tailored-info
+Student:  Okay artificial intelligence sounds very interesting, I will consider taking it.  Is EECS 492 a project based course? 
+Predicted:social Actual:push-other
+Student:  Hi 
+Predicted:social-open-close Actual:pull-fill
+Student:  i don't know what classes to take next semester  do you have any suggestions 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  eecs492 sounds interesting  what is the workload for eecs494 
+Predicted:social Actual:push-conditional
+Student:  how many hours do i need to devote to eecs376? 
+Predicted:social Actual:push-tailored-info
+Student:  okay i'll take eecs492 and eecs376  thanks for your help 
+Predicted:social-open-close Actual:push-tailored-info
+Student:  Practice coding  Can I take EECS482 next semester? 
+Predicted:social Actual:push-tailored-info
+Student:  Could you tell me something about EECS376 
+Predicted:social Actual:push-general-info
+Student:  I have no preference.  Can I select EECS281 in some other semesters?  Can I select EECS281 in some other semesters? 
+Predicted:social Actual:push-general-info
+Student:  I am looking for a moderately difficult class. Not too difficult, however. Do you have any suggestions? 
+Predicted:social Actual:push-tailored-info
+Student:  Okay, great! How many people are in that class? I don't like classes that are very small. 
+Predicted:push-general-info Actual:push-general-info
+Student:  Hmm, okay. Is the information about the time of day that the class will take place available? I like morning classes. 
+Predicted:social Actual:push-general-info
+Student:  Siiiiiick. Thanks for your help, advisor guy. I appreciate it! 
+Predicted:social Actual:social-open-close
+Student:  Hello, I have most of my requirements done and am figuring out which classes are left for me to take. 
+Predicted:social Actual:push-conditional
+Student:  Any ULCS courses that would help me in the job world? 
+Predicted:social Actual:push-conditional
+Student:  That's interesting, are there any other courses? 
+Predicted:push-tailored-info Actual:push-conditional
+Student:  What are those courses on? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Those both sound very interesting, thank you. 
+Predicted:social-open-close Actual:social-other
+Student:  No, that is all 
+Predicted:social-open-close Actual:social-open-close
+Student:  My name is Kaushik 
+Predicted:social Actual:social-other
+Student:  Should I take 281 or 370 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  Is that in the morning? I prefer morning classes. 
+Predicted:push-general-info Actual:push-general-info
+Student:  Okay.  Can I take 370 with that class? 
+Predicted:push-general-info Actual:push-general-info
+Student:  What other class should I take then? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Okay  I'm interested in Artificial Intelligence. Are there any classes related to taht? 
+Predicted:social Actual:push-conditional
+Student:  Are there any other classes? 
+Predicted:push-tailored-info Actual:push-conditional
+Student:  Okay. Are there any other classes I can take? I like easy classes. 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  What is that class? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Okay that sounds interesting. I have taken 270. Will that be enough? 
+Predicted:social Actual:push-tailored-info
+Student:  Okay. I will take that first. thank you!  Bye! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hola 
+Predicted:social-open-close Actual:social-open-close
+Student:  Como estas? 
+Predicted:push Actual:social-continue
+Student:  How hard is EECS281? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Should I take EECS 281 next semester? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  What could I take with it? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Which would you recommend?  Could I take all 3? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Okay sounds great!  Sign me up! 
+Predicted:social-open-close Actual:push-general-info
+Student:  Should I also take my upper level spanish class? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  okay, thank you! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Is Atul Prakash a cool professor? 
+Predicted:social Actual:social-continue
+Student:  Sounds lame, I want to take 381, am I eligible? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  I guess 183 is 381 backwards 
+Predicted:social Actual:social-continue
+Student:  Okay so do you think I'm on track to graduate with a CS degree within 2 semester? 
+Predicted:social Actual:push-tailored-info
+Student:  Wow, this major is too demanding. I think I might get a minor, what are the requires for a CS minor? 
+Predicted:social Actual:push-general-info
+Student:  Sounds gross, it looks like 281 is a tough class. I don't think I'll be doing anything in CS. Hope you have a good day! 
+Predicted:social Actual:social-open-close
+Student:  What are the remaining requirements for me to graduate? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  How many credits do I have remaining in order to graudate? 
+Predicted:push Actual:push-tailored-info
+Student:  How many EECS courses do you suggest taking next semester? 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  Thanks for your help 
+Predicted:social-open-close Actual:social-open-close
+Student:  How many credits is that? 
+Predicted:push-general-info Actual:push-conditional
+Student:  Oh... Well I only need two more credits of flex tech next semester. Are there any other classes you would recommend? 
+Predicted:social Actual:push-conditional
+Student:  I heard EECS 481 is a terrible class, but I was planning on taking it for my MDE. What should I do? 
+Predicted:social Actual:push-tailored-info
+Student:  You are not being helpful. 
+Predicted:social-open-close Actual:social-other
+Student:  I'm trying to decide between EECS 445 and EECS 442. Which one is harder? 
+Predicted:social Actual:pull-bool
+Student:  I dunno  I want to try something new  Also, I really want to work at Google. Which classes will get me a job at Google? 
+Predicted:social Actual:push-general-info
+Student:  What is the easiest class I could take to fulfill my requirements? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  Oh really? Why? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  I tend to enjoy all Asians 
+Predicted:social Actual:social-open-close
+Student:  Just so you know, you were not very helpful at all.  Hello 
+Predicted:social Actual:social-open-close
+Student:  I'm a junior and I'm in 280 and I don't know what to take next 
+Predicted:push-general-info Actual:push-general-info
+Student:  What is EECS 370? 
+Predicted:push-general-info Actual:push-general-info
+Student:  What is EECS 376? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Which would be easier to take with 281? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  Ok that makes sense 
+Predicted:social Actual:social-open-close
+Student:  Hi, I need help choosing what classes to take next semester. 
+Predicted:pull-fill Actual:pull-bool
+Student:  Yes. What classes can I take as my MDE? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Ok, have I met the prerequisites for EECS 481? 
+Predicted:social Actual:push-conditional
+Student:  What other classes could I take as my MDE? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  Yes I am. How difficult is this class? 
+Predicted:push-general-info Actual:push-general-info
+Student:  I am worried that this is too heavy of a workload. 
+Predicted:push-tailored-info Actual:social-continue
+Student:  Thank you for your help 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hi! I have a few quick questions about next semester  I'm looking for a class with a low to moderate workload with a helpful professor to fulfill some of my upper-level CS courses. Any suggestions? 
+Predicted:social Actual:social-other
+Student:  YESSSSSS! I am SUPER excited about web tech and apps!!! 
+Predicted:social Actual:push-tailored-info
+Student:  What's a good class to take with EECS 485? 
+Predicted:push-general-info Actual:pull-select
+Student:  I really need to take a light load next semester because I am working and applying for jobs. 
+Predicted:social Actual:push-tailored-info
+Student:  I'm not interested in eecs 373 really 
+Predicted:push-tailored-info Actual:pull-other
+Student:  Because I don't like computer hardware 
+Predicted:push-tailored-info Actual:social-other
+Student:  I'm looking for a very helpful professor 
+Predicted:social-open-close Actual:push-general-info
+Student:  OOOOOOH that sounds so cool! I think that's all I need.  Thank you! 
+Predicted:social-open-close Actual:social-other
+Student:  Sorry, I was just finishing writing a text message to my friend. Anyway, I came here to discuss my final semester here at the school. 
+Predicted:social Actual:pull-fill
+Student:  I need to plan my last semester. I am thinking about taking three 400-level EECS courses. 
+Predicted:social Actual:pull-fill
+Student:  Probably something like two software engineering courses, and one other EECS course that is not too code-heavy. 
+Predicted:social Actual:pull-bool
+Student:  441 is mobile development, right? 
+Predicted:social Actual:push-tailored-info
+Student:  How about 484? Is that code-heavy? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  Okay, and for my third EECS class, what do you think about EECS 486? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Do you know if it has a final project? 
+Predicted:social Actual:push-general-info
+Student:  Okay thank you for providing me with this information. I think I'll sign up for these three. 
+Predicted:social Actual:social-open-close
+Student:  muenster cheese quesadillas 
+Predicted:social Actual:pull-fill
+Student:  I do not know. Can you give me some suggestions? 
+Predicted:push-general-info Actual:pull-bool
+Student:  According to my transcript, apparently not. 
+Predicted:social Actual:push-tailored-info
+Student:  But wait, I forgot! I took Engin 101!!!  Also, I'm in Engineering. So I can't take EECS 183 
+Predicted:social Actual:push-tailored-info
+Student:  Ok thanks!  Have a good day!!! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Yes!  I wondered whether you could give me any recommendations. I will need 4 credits for next semester but I do not know which is good 
+Predicted:social Actual:push-tailored-info
+Student:  yes I should. What design course do you think is good? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  May I know the description of the course? 
+Predicted:push-general-info Actual:push-general-info
+Student:  It looks good. I like that.  How many credits the course will count? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Does the course have lab? I like labs a lot! 
+Predicted:push-general-info Actual:push-general-info
+Student:  Thank you! I will take the course  Good Bye! 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hey, I think I wanna take Physics 140 
+Predicted:social Actual:push-tailored-info
+Student:  Oh, whoops.  Silly me.  I'm thinking about IOE 474 to finish up my IOE reqs.  I meant EECS 482 
+Predicted:social Actual:push-general-info
+Student:  Which class should I take next? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Good idea!  Is EECS 203 hard? 
+Predicted:push-general-info Actual:push-general-info
+Student:  Hello, how are you? 
+Predicted:social-open-close Actual:social-open-close
+Student:  Fine, thanks! I am looking for courses that you would recommend I take next semester 
+Predicted:push-tailored-info Actual:pull-bool
+Student:  No, so far most of the classes I have taken are IOE classes 
+Predicted:social Actual:pull-bool
+Student:  No, I did not like ENGR 101 very much. 
+Predicted:social Actual:push-tailored-info
+Student:  Ok, that sounds good. Are there any other courses you would recommend? 
+Predicted:push-tailored-info Actual:pull-bool
+Student:  Yes, I am fine with that 
+Predicted:push-tailored-info Actual:pull-bool
+Student:  No, I would prefer a medium workload. I also have a slight interest in computer hardware 
+Predicted:social Actual:push-tailored-info
+Student:  Ok, what other EECS classes would I need to take? I have not taken any yet 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  Are there any others I can take next semester? 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  Ok, thank you! 
+Predicted:social-open-close Actual:social-open-close
+Student:  HI  Can I take EECS 381?  Who should take EECS 381? 
+Predicted:push-general-info Actual:social-open-close
+Student:  Would you recommend any other classes?  I am interested in NLP 
+Predicted:push-tailored-info Actual:push-general-info
+Student:  That sounds very interesting  Can I take EECS 445?  Next semester? 
+Predicted:push-general-info Actual:push-tailored-info
+Student:  I don't think I have the math background  Is there another similar course? 
+Predicted:social Actual:push-tailored-info
+Student:  Thank you I will think about  it 
+Predicted:social-open-close Actual:social-open-close
+Student:  Hey, i'm looking for classes that I can take next semester. Do you have any suggestions? 
+Predicted:push-tailored-info Actual:push-tailored-info
+Student:  Hm, what class has the teacher with the highest clarity rating? 
+Predicted:social Actual:push-tailored-info
+Student:  In addition to that, which class has the teacher with the highest helpfulness rating? 
+Predicted:social Actual:push-tailored-info
